@@ -1,6 +1,6 @@
 extends "res://addons/addon_lib/setting_helper/components/object_base.gd"
 
-const UFile = preload("uid://bl33psa06nv1e") #! resolve ALibRuntime.Utils.UFile.Methods
+const UFile = preload("uid://bqfy5cvhth0m1") #! resolve UtilR.Files.UFile
 
 func _ensure_file_exists():
 	if not FileAccess.file_exists(_file_path):
