@@ -1,4 +1,4 @@
-extends "res://addons/addon_lib/setting_helper/components/sh_base.gd"
+extends "res://addons/_lib/setting_helper/components/sh_base.gd"
 
 func set_save_to_file_on_change(state:bool):
 	_get_settings_object()._save_to_file_on_change = state

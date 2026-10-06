@@ -1,7 +1,7 @@
-export_root: "res://addons/addon_lib/setting_helper/_export_ignore/exports"
-plugin_folder: "SettingHelper{{version=res://addons/addon_lib/setting_helper}}"
-pre_script: "res://addons/addon_lib/setting_helper/_export_ignore/pre_post_export.gd"
-post_script: "res://addons/addon_lib/setting_helper/_export_ignore/pre_post_export.gd"
+export_root: "res://addons/_lib/setting_helper/_export_ignore/exports"
+plugin_folder: "SettingHelper{{version=res://addons/_lib/setting_helper}}"
+pre_script: "res://addons/_lib/setting_helper/_export_ignore/pre_post_export.gd"
+post_script: "res://addons/_lib/setting_helper/_export_ignore/pre_post_export.gd"
 build_require:
   - "brohd11/godot-singleton@v0.9.0"
   - "brohd11/godot-util-r@v0.2.0"
@@ -36,12 +36,12 @@ options:
     parse_tres: {}
 exports:
   -
-    source: "res://addons/addon_lib/setting_helper"
-    export_name: "setting-helper{{version=res://addons/addon_lib/setting_helper}}"
-    export_folder: addons/addon_lib/setting_helper
+    source: "res://addons/_lib/setting_helper"
+    export_name: "setting-helper{{version=res://addons/_lib/setting_helper}}"
+    export_folder: addons/_lib/setting_helper
     exclude:
       directories:
-        - "res://addons/addon_lib/setting_helper/_export_ignore"
+        - "res://addons/_lib/setting_helper/_export_ignore"
       file_extensions: []
       files: []
     other_transfers: []
@@ -50,4 +50,4 @@ exports:
       parse_gd: {}
       parse_tscn: {}
       parse_tres: {}
-    remote_dir: "res://addons/addon_lib/setting_helper/src/remote"
+    remote_dir: "res://addons/_lib/setting_helper/src/remote"

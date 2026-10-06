@@ -1,12 +1,12 @@
 #! namespace SettingHelper class Singleton
 extends Singletons.Base
 
-const SHJson = preload("res://addons/addon_lib/setting_helper/json.gd") # setting_helper_json.gd
+const SHJson = preload("res://addons/_lib/setting_helper/json.gd") # setting_helper_json.gd
 
 ## Implement in extended classes
 
 # Use 'PE_STRIP_CAST_SCRIPT' to auto strip type casts with plugin exporter, if the class is not a global name
-const PE_STRIP_CAST_SCRIPT = preload("res://addons/addon_lib/setting_helper/singleton.gd")
+const PE_STRIP_CAST_SCRIPT = preload("res://addons/_lib/setting_helper/singleton.gd")
 
 static func get_singleton_name() -> String:
 	return "SettingHelperSingleton"

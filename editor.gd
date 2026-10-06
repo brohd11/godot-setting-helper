@@ -1,6 +1,6 @@
 #! namespace SettingHelper class Editor
 
-extends "res://addons/addon_lib/setting_helper/components/sh_base.gd"
+extends "res://addons/_lib/setting_helper/components/sh_base.gd"
 
 func _get_settings_object():
 	if not Engine.is_editor_hint():

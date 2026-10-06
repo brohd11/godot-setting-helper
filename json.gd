@@ -1,8 +1,8 @@
 #! namespace SettingHelper class Json
 
-extends "res://addons/addon_lib/setting_helper/components/sh_file_base.gd"
+extends "res://addons/_lib/setting_helper/components/sh_file_base.gd"
 
-const ObjectJson = preload("res://addons/addon_lib/setting_helper/components/object_json.gd")
+const ObjectJson = preload("res://addons/_lib/setting_helper/components/object_json.gd")
 
 var settings_object:ObjectJson
 
