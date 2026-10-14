@@ -1,4 +1,4 @@
-extends "res://addons/_lib/setting_helper/components/object_base.gd"
+extends "res://addons/_lib/setting_helper/src/components/object_base.gd"
 
 const UFile = preload("uid://bqfy5cvhth0m1") #! resolve UtilR.Files.UFile
 
