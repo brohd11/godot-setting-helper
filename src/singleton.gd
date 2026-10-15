@@ -11,6 +11,9 @@ const PE_STRIP_CAST_SCRIPT = preload("res://addons/_lib/setting_helper/src/singl
 static func get_singleton_name() -> String:
 	return "SettingHelperSingleton"
 
+static func _get_singleton_node_path() -> String:
+	return RUNTIME_NODE_PATH
+
 static func get_instance() -> PE_STRIP_CAST_SCRIPT:
 	return _get_instance(PE_STRIP_CAST_SCRIPT)
 
