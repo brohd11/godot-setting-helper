@@ -5,7 +5,7 @@ const SHJson = preload("res://addons/_lib/setting_helper/src/json.gd") # setting
 
 ## Implement in extended classes
 
-# Use 'PE_STRIP_CAST_SCRIPT' to auto strip type casts with plugin exporter, if the class is not a global name
+#! gdp-strip-cast PE_STRIP_CAST_SCRIPT
 const PE_STRIP_CAST_SCRIPT = preload("res://addons/_lib/setting_helper/src/singleton.gd")
 
 static func get_singleton_name() -> String:
